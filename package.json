@@ -5,8 +5,8 @@
   "homepage": "https://ali-abo-alshamlat.github.io/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "npm run build",
+    "start": "npm start",
     "export": "next export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
